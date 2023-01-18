@@ -1,0 +1,7 @@
+For algorithms such as Prim's, Kruskal's and Dijkstra, we make use of the concept of data structure which is simpler to implement on C programming over
+other programming languages.
+For Prim's Algorithm- we make use of Minimum Spanning Tree (MST) data structure.
+For Kruskal's Algorithm- we make use of graphs data strucure.
+For Dijkstra's Algorithm - we make use of graphs data strucure as well.
+
+Given we had learnt these data structures using C programming the last semester, I have used C programming.
