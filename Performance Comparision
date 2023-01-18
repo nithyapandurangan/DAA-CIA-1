@@ -1,0 +1,33 @@
+Prim's Algorithm- 
+1. Prim's Algorithm is a greedy alogrithm that gives a minimum spanning tree that is used to find the shortest path between two nodes, i.e the final 
+graph's weight will be minimum.
+2. It treats the nodes as a single tree and keeps on adding new nodes to the spanning tree from the given graph.
+3. To obtain the minimum distance, it traverses a node more than one time.
+4. Time complexity- O(V^2)
+
+Kruskal's Algorithm- 
+1. Kruskal's Algorithm is used to discover the shortest path between two points in a weighted graph. 
+2. This algorithm converts a given graph into
+the forest, considering each node as a separate tree. 
+3. It crosses one node only one time.
+4. Time Complexity- O(E log V)
+
+Dijkstra's Algorithm- 
+1. Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a graph. 
+2. It differs from the minimum spanning tree because the shortest distance between two vertices might not include all the vertices of the graph.
+3. Dijkstra’s algorithm can work on both directed and undirected graphs.
+4. Dijkstra’s algorithm may fail to accurately compute distances if at least one negative edge weight exists
+5. Time Complexity- O(V^2)
+
+- Prim's algorithm is faster on dense graphs because it traverses the adjacent nodes for each node and it does not have to sort the edges as 
+in the case of Kruskal, therefore Prim's algorithm is faster in calculating the minimum spanning tree for dense graphs.
+- Dijkstra's algorithm finds the shortest path between 2 nodes. Which does not necessarily cover all the nodes in the graph. However on Kruskal's
+case, the algorithm tries to cover all the nodes while keeping the edge cost minimum.
+
+
+
+
+
+
+
+
