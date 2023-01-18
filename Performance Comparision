@@ -15,8 +15,8 @@ the forest, considering each node as a separate tree.
 Dijkstra's Algorithm- 
 1. Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a graph. 
 2. It differs from the minimum spanning tree because the shortest distance between two vertices might not include all the vertices of the graph.
-3. Dijkstra’s algorithm can work on both directed and undirected graphs.
-4. Dijkstra’s algorithm may fail to accurately compute distances if at least one negative edge weight exists
+3. It can work on both directed and undirected graphs.
+4. It may fail to accurately compute distances if at least one negative edge weight exists
 5. Time Complexity- O(V^2)
 
 - Prim's algorithm is faster on dense graphs because it traverses the adjacent nodes for each node and it does not have to sort the edges as 
