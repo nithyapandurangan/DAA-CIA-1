@@ -1,0 +1,6 @@
+- The shortest path from source node to all possible nodes is possible to be found only using Dijkstra's Algorithm. Prim's and Kruskal's only give the 
+shortest path between two random nodes and not for all possible nodes in a graph. 
+- Dijkstra's Algorithm fails when a directed/undirected graph has negative edge weight. In presence of negative edge weights, Prim's and Kruskal's work
+perfectly. 
+- Prim's and Kruskal's usually do not work for directed graphs as it is possible for certain nodes to not have a path from it, which usually results in
+an error in finding the shortest path. Whereas, Dijkstra's works for both directed and undirected graphs.
