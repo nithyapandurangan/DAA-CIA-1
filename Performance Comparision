@@ -15,7 +15,7 @@ the forest, considering each node as a separate tree.
 - Prim's algorithm is faster on dense graphs because it traverses the adjacent nodes for each node and it does not have to sort the edges as 
 in the case of Kruskal, therefore Prim's algorithm is faster in calculating the minimum spanning tree for dense graphs.
 - Dijkstra's algorithm finds the shortest path between 2 nodes. Which does not necessarily cover all the nodes in the graph. However on Kruskal's
-case, the algorithm tries to cover all the nodes while keeping the edge cost minimum.
+case, the algorithm tries to cover all the nodes while keeping the edge weight minimum.
 
 Dijkstra's Algorithm- 
 1. Dijkstra's algorithm is an algorithm for finding the shortest paths between source nodes to all nodes in a graph. 
